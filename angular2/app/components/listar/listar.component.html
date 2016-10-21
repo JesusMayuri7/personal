@@ -1,0 +1,6 @@
+<button class="btn btn-primary" (click)="mostrarUser()">Listar</button>
+<ul>
+     <li *ngFor="let item of personal">
+          {{item.dni}} {{item.nombres}}                
+     </li>
+</ul>
