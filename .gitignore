@@ -5,3 +5,5 @@ app/**/*.js
 app/**/*.map
 node_modules
 /public/lib
+*.js
+*.map
